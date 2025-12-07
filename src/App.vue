@@ -1,6 +1,5 @@
 ﻿<template>
-  <AppLayout v-if="authStore.isAuthenticated" />
-  <router-view v-else />
+  <router-view />
 </template>
 
 <script setup lang="ts">
